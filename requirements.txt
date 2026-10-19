@@ -1,0 +1,25 @@
+# Core
+numpy>=1.26
+networkx>=3.2          # useful for prerequisite-graph cycle checks, dependency DAGs
+
+# Propositional logic / entailment
+sympy>=1.12             # if hand-rolling entailment, else skip
+
+# Learned heuristic (Deep Learning component)
+torch>=2.2              # or scikit-learn if the regressor is simple (MLP/GBM)
+scikit-learn>=1.4
+
+# Evaluation / stats
+scipy>=1.12              # Wilcoxon signed-rank test, bootstrap CIs
+pandas>=2.2               # benchmark results, stratified analysis
+matplotlib>=3.8            # plots for E1–E3
+seaborn>=0.13               # nicer stat plots, optional
+
+# Testing
+pytest>=8.0
+
+# Optional: CSP library reference / comparison baseline
+python-constraint>=1.4        # only if you benchmark against an existing CSP lib
+
+# Optional: config / serialization
+pyyaml>=6.0

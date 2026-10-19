@@ -1,0 +1,1 @@
+"""GraphMind configuration package."""

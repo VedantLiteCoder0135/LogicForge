@@ -1,0 +1,69 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# Environment / secrets
+.env
+*.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs & experiment outputs
+*.log
+logs/
+runs/
+wandb/
+
+# Data (if curriculum JSON/CSVs are large or sensitive — student transcripts especially!)
+data/raw/
+data/student_transcripts/
+*.csv
+!data/curriculum_sample.csv   # keep a sample tracked, if you want
+
+# Trained model weights (large binary files)
+*.pt
+*.pth
+*.pkl
+*.joblib
+models/checkpoints/
+
+# Generated plan outputs / benchmark results
+output/
+results/*.json
+benchmark_results/
+
+# Node (if you build a frontend/explanation UI)
+node_modules/
