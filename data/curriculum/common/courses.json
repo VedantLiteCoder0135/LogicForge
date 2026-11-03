@@ -1,0 +1,18 @@
+[
+  {
+    "code": "CS F111",
+    "title": "COMPUTER PROGRAMMING",
+    "credits": 4,
+    "term_parity": "even",
+    "category": "University Core (First Year)",
+    "prerequisites": null
+  },
+  {
+    "code": "EEE F111",
+    "title": "ELECTRICAL SCIENCES",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "University Core (First Year)",
+    "prerequisites": null
+  }
+]

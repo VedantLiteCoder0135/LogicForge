@@ -1,0 +1,210 @@
+[
+  {
+    "code": "CS F211",
+    "title": "DATA STRUCTURES & ALGO",
+    "credits": 4,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": "(CS F222 OR MATH F213)"
+  },
+  {
+    "code": "CS F212",
+    "title": "DATABASE SYSTEMS",
+    "credits": 4,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "CS F213",
+    "title": "OBJECT ORIENTED PROG",
+    "credits": 4,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": "CS F111"
+  },
+  {
+    "code": "CS F214",
+    "title": "LOGIC IN COMPUTER SC",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "CS F215",
+    "title": "DIGITAL DESIGN",
+    "credits": 4,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "CS F222",
+    "title": "DISCR STRUC FOR COMP SCI",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "CS F241",
+    "title": "MICROPROC & INTERFACING",
+    "credits": 4,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "CS F301",
+    "title": "PRINCIPLES OF PROGG LANG",
+    "credits": 2,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": "CS F211"
+  },
+  {
+    "code": "CS F303",
+    "title": "COMPUTER NETWORKS",
+    "credits": 4,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": "CS F372"
+  },
+  {
+    "code": "CS F342",
+    "title": "COMPUTER ARCHITECTURE",
+    "credits": 4,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": "(CS F241 AND CS F215)"
+  },
+  {
+    "code": "CS F351",
+    "title": "THEORY OF COMPUTATION",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": "(CS F222 AND CS F214)"
+  },
+  {
+    "code": "CS F363",
+    "title": "COMPILER CONSTRUCTION",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": "(CS F351 AND CS F301)"
+  },
+  {
+    "code": "CS F364",
+    "title": "DESIGN & ANAL OF ALGO",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": "CS F211"
+  },
+  {
+    "code": "CS F372",
+    "title": "OPERATING SYSTEMS",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "CS F314",
+    "title": "SOFT DEV FOR PORT DEVICE",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "CS F315",
+    "title": "INFO AND COMM TECH & DEV",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "CS F316",
+    "title": "Quantum Architecture and Programming",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": "CS F215"
+  },
+  {
+    "code": "CS F317",
+    "title": "REINFORCEMENT LEARNING",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "CS F320",
+    "title": "FOUNDATIONS OF DATA SCIENCE",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": "MATH F113"
+  },
+  {
+    "code": "CS F401",
+    "title": "MULTIMEDIA COMPUTING",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "CS F402",
+    "title": "COMPUTATIONAL GEOMETRY",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": "(CS F111 AND CS F211)"
+  },
+  {
+    "code": "CS F407",
+    "title": "ARTIFICIAL INTELLIGENCE",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "CS F413",
+    "title": "INTERNETWORKING TECHNOLOG",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "CS F415",
+    "title": "DATA MINING",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "CS F422",
+    "title": "PARALLEL COMPUTING",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "CS F424",
+    "title": "SOFTWARE FOR EMBEDED SYS",
+    "credits": 4,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  }
+]

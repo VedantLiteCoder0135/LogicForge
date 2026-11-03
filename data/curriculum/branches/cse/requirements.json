@@ -1,0 +1,12 @@
+[
+  {
+    "category": "Discipline Core",
+    "credit_minimum": 48,
+    "eligible_courses": []
+  },
+  {
+    "category": "Discipline Elective",
+    "credit_minimum": 12,
+    "eligible_courses": []
+  }
+]

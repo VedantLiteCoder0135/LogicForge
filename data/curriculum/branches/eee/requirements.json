@@ -1,0 +1,13 @@
+[
+  {
+    "category": "Discipline Core",
+    "credit_minimum": 48,
+    "eligible_courses": [],
+    "note": "The bulletin lists this slot as EITHER MATH F212 Optimization (3 credits) OR ME F344 Engineering Optimization (2 credits), stating the total as 47 or 48 units depending on which is taken. This file encodes the MATH F212 variant (the 48-unit case) in courses.json for consistency with the stated 48-unit figure. ME F344 is NOT yet added as an alternative here -- if the planner needs to offer both options, add ME F344 to courses.json and list both codes here."
+  },
+  {
+    "category": "Discipline Elective",
+    "credit_minimum": 12,
+    "eligible_courses": []
+  }
+]
