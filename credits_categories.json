@@ -1,0 +1,39 @@
+{
+  "_NOTE": "PLACEHOLDER DATA ONLY. credits/category/category_minimums are NOT present anywhere in prereqs.json, prereqs.csv (absent from the public repo), or the h4u type definitions -- confirmed by inspecting the full handoutsforyou source. This table exists only so fixpoint.py's category-accumulation logic and the category credit-floor validation check can be built and tested now. It must be replaced with the real table sourced from the Academic Regulations / curriculum handout (the project's own primary source, per the proposal) before use on real student data. Course codes below are real (drawn from kb_courses.json); credit values and category labels are illustrative placeholders, NOT verified against the actual regulations.",
+
+  "credits_by_code": {
+    "BIO F110": 2,
+    "BIO F111": 3,
+    "BIO F211": 3,
+    "CS F111": 4,
+    "CS F211": 3,
+    "CS F212": 3,
+    "CS F213": 3,
+    "CS F214": 3,
+    "CS F241": 4,
+    "CS F301": 3,
+    "CS F303": 3,
+    "CS F320": 3,
+    "CS F342": 3
+  },
+  "category_by_code": {
+    "BIO F110": "Science Core",
+    "BIO F111": "Science Core",
+    "BIO F211": "Science Core",
+    "CS F111": "CS Core",
+    "CS F211": "CS Core",
+    "CS F212": "CS Core",
+    "CS F213": "CS Core",
+    "CS F214": "CS Core",
+    "CS F241": "CS Core",
+    "CS F301": "CS Elective",
+    "CS F303": "CS Elective",
+    "CS F320": "CS Elective",
+    "CS F342": "CS Elective"
+  },
+  "category_minimums": {
+    "Science Core": 10,
+    "CS Core": 25,
+    "CS Elective": 40
+  }
+}
