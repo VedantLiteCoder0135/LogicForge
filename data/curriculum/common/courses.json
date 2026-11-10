@@ -14,5 +14,37 @@
     "term_parity": "even",
     "category": "University Core (First Year)",
     "prerequisites": null
+  },
+  {
+    "code": "MATH F111",
+    "title": "MATHEMATICS-I",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "University Core (First Year)",
+    "prerequisites": null
+  },
+  {
+    "code": "MATH F112",
+    "title": "MATHEMATICS-II",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "University Core (First Year)",
+    "prerequisites": null
+  },
+  {
+    "code": "MATH F113",
+    "title": "PROBABILITY & STATISTICS",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "University Core (First Year)",
+    "prerequisites": null
+  },
+  {
+    "code": "MATH F213",
+    "title": "DISCRETE MATHEMATICS",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "University Core (First Year)",
+    "prerequisites": null
   }
 ]
