@@ -1,0 +1,5 @@
+instance,astar_status,astar_terms,astar_nodes,astar_time_s,astar_valid,csp_status,csp_nodes,csp_time_s
+chain3_cap4,SAT,3,4,0.00024,True,SAT,6,0.000117
+chain3_horizon2,UNSAT,0,1,2.4e-05,,UNSAT,8,6.5e-05
+three_independent_cap4,SAT,3,11,0.000408,True,SAT,6,7.1e-05
+even_course_from_odd_term,SAT,2,3,7.2e-05,True,SAT,1,3.4e-05

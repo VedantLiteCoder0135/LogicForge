@@ -1,0 +1,13 @@
+instance,heuristic,status,terms,nodes,time_s,gap_vs_composite
+chain3_cap4,credit_bound,SAT,3,4,9.4e-05,0
+chain3_cap4,critical_path,SAT,3,4,0.000108,0
+chain3_cap4,composite,SAT,3,4,0.000141,0
+chain3_horizon2,credit_bound,UNSAT,,1,8e-06,
+chain3_horizon2,critical_path,UNSAT,,1,1.3e-05,
+chain3_horizon2,composite,UNSAT,,1,1.7e-05,
+three_independent_cap4,credit_bound,SAT,3,11,0.000273,0
+three_independent_cap4,critical_path,SAT,3,19,0.000716,0
+three_independent_cap4,composite,SAT,3,11,0.00036,0
+even_course_from_odd_term,credit_bound,SAT,2,3,4.9e-05,0
+even_course_from_odd_term,critical_path,SAT,2,3,4.4e-05,0
+even_course_from_odd_term,composite,SAT,2,3,5.8e-05,0
