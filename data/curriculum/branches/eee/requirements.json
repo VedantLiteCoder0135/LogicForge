@@ -8,6 +8,7 @@
   {
     "category": "Discipline Elective",
     "credit_minimum": 12,
-    "eligible_courses": []
+    "eligible_courses": [],
+    "note": "11 real elective courses added (35 credits available), sourced from the bulletin's EEE DISCIPLINE ELECTIVE COURSES listing (DETAILS_OF_PROGRAMMES.pdf, course-catalog section) with prerequisites from the same cross-verified KB used for cse. EEE F417 has no prerequisite data in the KB (consistent with the pattern of newer/no-prereq courses documented in PairA_original_README.md) -- treated as open."
   }
 ]

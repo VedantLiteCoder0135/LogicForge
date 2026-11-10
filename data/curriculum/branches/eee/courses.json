@@ -1,16 +1,202 @@
 [
-  {"code": "EEE F211", "title": "ELECTRICAL MACHINES", "credits": 4, "term_parity": "odd", "category": "Discipline Core", "prerequisites": "EEE F111"},
-  {"code": "EEE F212", "title": "ELECTROMAGNETIC THEO I", "credits": 3, "term_parity": "odd", "category": "Discipline Core", "prerequisites": null},
-  {"code": "EEE F215", "title": "DIGITAL DESIGN", "credits": 4, "term_parity": "odd", "category": "Discipline Core", "prerequisites": null},
-  {"code": "EEE F214", "title": "ELECTRONIC DEVICES", "credits": 3, "term_parity": "odd", "category": "Discipline Core", "prerequisites": "EEE F111"},
-  {"code": "EEE F241", "title": "MICROPROC & INTERFACING", "credits": 4, "term_parity": "even", "category": "Discipline Core", "prerequisites": null},
-  {"code": "EEE F242", "title": "CONTROL SYSTEMS", "credits": 3, "term_parity": "even", "category": "Discipline Core", "prerequisites": null},
-  {"code": "EEE F243", "title": "SIGNALS & SYSTEMS", "credits": 3, "term_parity": "even", "category": "Discipline Core", "prerequisites": null},
-  {"code": "EEE F244", "title": "MICROELECTRONIC CIRCUITS", "credits": 3, "term_parity": "even", "category": "Discipline Core", "prerequisites": null},
-  {"code": "EEE F311", "title": "COMMUNICATION SYSTEMS", "credits": 4, "term_parity": "odd", "category": "Discipline Core", "prerequisites": "EEE F243"},
-  {"code": "MATH F212", "title": "OPTIMIZATION", "credits": 3, "term_parity": "odd", "category": "Discipline Core", "prerequisites": "MATH F111 AND MATH F112"},
-  {"code": "EEE F313", "title": "ANALOG & DIGIT VLSI DES", "credits": 3, "term_parity": "odd", "category": "Discipline Core", "prerequisites": "(EEE F244 OR ECE F244)"},
-  {"code": "EEE F341", "title": "ANALOG ELECTRONICS", "credits": 4, "term_parity": "even", "category": "Discipline Core", "prerequisites": "EEE F244"},
-  {"code": "EEE F342", "title": "POWER ELECTRONICS", "credits": 4, "term_parity": "even", "category": "Discipline Core", "prerequisites": null},
-  {"code": "EEE F312", "title": "POWER SYSTEMS", "credits": 3, "term_parity": "even", "category": "Discipline Core", "prerequisites": null}
+  {
+    "code": "EEE F211",
+    "title": "ELECTRICAL MACHINES",
+    "credits": 4,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": "EEE F111"
+  },
+  {
+    "code": "EEE F212",
+    "title": "ELECTROMAGNETIC THEO I",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "EEE F215",
+    "title": "DIGITAL DESIGN",
+    "credits": 4,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "EEE F214",
+    "title": "ELECTRONIC DEVICES",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": "EEE F111"
+  },
+  {
+    "code": "EEE F241",
+    "title": "MICROPROC & INTERFACING",
+    "credits": 4,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "EEE F242",
+    "title": "CONTROL SYSTEMS",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "EEE F243",
+    "title": "SIGNALS & SYSTEMS",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "EEE F244",
+    "title": "MICROELECTRONIC CIRCUITS",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "EEE F311",
+    "title": "COMMUNICATION SYSTEMS",
+    "credits": 4,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": "EEE F243"
+  },
+  {
+    "code": "MATH F212",
+    "title": "OPTIMIZATION",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": "MATH F111 AND MATH F112"
+  },
+  {
+    "code": "EEE F313",
+    "title": "ANALOG & DIGIT VLSI DES",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": "(EEE F244 OR ECE F244)"
+  },
+  {
+    "code": "EEE F341",
+    "title": "ANALOG ELECTRONICS",
+    "credits": 4,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": "EEE F244"
+  },
+  {
+    "code": "EEE F342",
+    "title": "POWER ELECTRONICS",
+    "credits": 4,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "EEE F312",
+    "title": "POWER SYSTEMS",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "EEE F414",
+    "title": "TELECOM SWIT SYS & NETWK",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "EEE F416",
+    "title": "DIGITAL COMMUNICATION",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "EEE F417",
+    "title": "COMPUTER BASED CONTROL SYSTEM",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "EEE F418",
+    "title": "MOD COMMUNICATION TECH",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": "(EEE F243 OR INSTR F243)"
+  },
+  {
+    "code": "EEE F420",
+    "title": "Biomedical Signal Processing",
+    "credits": 4,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": "(EEE F434 OR ECE F434)"
+  },
+  {
+    "code": "EEE F422",
+    "title": "MODERN CONTROL SYSTEMS",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": "(EEE F242 OR ECE F242 OR INSTR F242)"
+  },
+  {
+    "code": "EEE F425",
+    "title": "POWER SYS ANAL & CONTROL",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "EEE F426",
+    "title": "FIBRE OPTICS & OPTOELECT",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "EEE F431",
+    "title": "MOBILE TELECOM NETWORKS",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": "(EEE F243 OR INSTR F243)"
+  },
+  {
+    "code": "EEE F434",
+    "title": "DIGITAL SIGNAL PROCESS",
+    "credits": 4,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": "EEE F243"
+  },
+  {
+    "code": "EEE F435",
+    "title": "DIGITAL IMAGE PROCESSING",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  }
 ]
