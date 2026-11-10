@@ -75,9 +75,12 @@ def test_eee_branch_loads_and_entails():
 
 
 def test_unresolved_reference_raises_by_default():
-    curr = _load()
+    # MATH F111-F113/F213 were added to common/, closing cse's earlier gap --
+    # eee's EEE F313 (-> ECE F244, a different department, out of scope)
+    # is the current genuinely-unresolved case. See VALIDATION_STATUS.md.
+    curr = load_curriculum(CURRICULUM_DIR, branch='eee')
     known = curr.known_codes()
-    course = curr.courses['CS F211']  # references MATH F213, outside scope
+    course = curr.courses['EEE F313']
     raised = False
     try:
         evaluate(course.parsed_prerequisites, completed=set(), known_codes=known)
