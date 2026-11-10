@@ -1,1 +1,186 @@
-[]
+[
+  {
+    "code": "ECE F211",
+    "title": "ELECTRICAL MACHINES",
+    "credits": 4,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": "EEE F111"
+  },
+  {
+    "code": "ECE F212",
+    "title": "ELECTROMAGNETIC THEO I",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "ECE F215",
+    "title": "DIGITAL DESIGN",
+    "credits": 4,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "ECE F214",
+    "title": "ELECTRONIC DEVICES",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": "EEE F111"
+  },
+  {
+    "code": "ECE F241",
+    "title": "MICROPROC & INTERFACING",
+    "credits": 4,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "ECE F242",
+    "title": "CONTROL SYSTEMS",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "ECE F243",
+    "title": "SIGNALS & SYSTEMS",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "ECE F244",
+    "title": "MICROELECTRONIC CIRCUITS",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "ECE F311",
+    "title": "COMMUNICATION SYSTEMS",
+    "credits": 4,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": "ECE F243"
+  },
+  {
+    "code": "ECE F314",
+    "title": "EM FIELDS & MICRO ENGG",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "ECE F434",
+    "title": "DIGITAL SIGNAL PROCESS",
+    "credits": 4,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": "ECE F243"
+  },
+  {
+    "code": "ECE F341",
+    "title": "ANALOG ELECTRONICS",
+    "credits": 4,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": "ECE F244"
+  },
+  {
+    "code": "ECE F343",
+    "title": "COMMUNICATION NETWORKS",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "ECE F344",
+    "title": "INFO THEORY & CODING",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": "EEE F243"
+  },
+  {
+    "code": "ECE F414",
+    "title": "TELECOM SWIT SYS & NETWK",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "ECE F416",
+    "title": "DIGITAL COMMUNICATION",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "ECE F418",
+    "title": "MOD COMMUNICATION TECH",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": "ECE F243"
+  },
+  {
+    "code": "ECE F424",
+    "title": "Smart Grid for Sustainable Energy",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": "(EEE F242 OR INSTR F242 OR ECE F242)"
+  },
+  {
+    "code": "ECE F428",
+    "title": "Energy Storage Systems",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "ECE F429",
+    "title": "Smart Materials and Applications",
+    "credits": 4,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "ECE F430",
+    "title": "Green Communications and Networks",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "ECE F431",
+    "title": "MOBILE TELECOM NETWORKS",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": "ECE F243"
+  },
+  {
+    "code": "ECE F472",
+    "title": "SATELLITE COMMUNICATION",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": "ECE F243"
+  }
+]

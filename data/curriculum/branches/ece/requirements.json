@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "category": "Discipline Core",
+    "credit_minimum": 48,
+    "eligible_courses": [],
+    "note": "14 courses, exactly 48 units, matching the bulletin's own stated 'Discipline Core-48 Units (14 Courses)' for B.E. Electronics & Communication (ECE), sourced from DETAILS_OF_PROGRAMMES.pdf's 'Semester-wise Pattern for Students Admitted to B.E. Electronics & Communication Programme'. Prerequisites from the same cross-verified KB used for cse/eee."
+  },
+  {
+    "category": "Discipline Elective",
+    "credit_minimum": 12,
+    "eligible_courses": [],
+    "note": "9 real elective courses added (28 credits available), sourced from the bulletin's ECE DISCIPLINE ELECTIVE COURSES listing. ECE F428/F429/F430 have no prerequisite data in the KB (consistent with the pattern documented for newer/no-prereq courses) -- treated as open."
+  }
+]

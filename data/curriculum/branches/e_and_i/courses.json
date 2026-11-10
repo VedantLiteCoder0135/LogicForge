@@ -1,1 +1,194 @@
-[]
+[
+  {
+    "code": "INSTR F211",
+    "title": "ELECTRICAL MACHINES",
+    "credits": 4,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": "EEE F111"
+  },
+  {
+    "code": "INSTR F212",
+    "title": "ELECTROMAGNETIC THEO I",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "INSTR F215",
+    "title": "DIGITAL DESIGN",
+    "credits": 4,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "INSTR F214",
+    "title": "ELECTRONIC DEVICES",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": "EEE F111"
+  },
+  {
+    "code": "INSTR F241",
+    "title": "MICROPROC & INTERFACING",
+    "credits": 4,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "INSTR F242",
+    "title": "CONTROL SYSTEMS",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "INSTR F243",
+    "title": "SIGNALS & SYSTEMS",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "INSTR F244",
+    "title": "MICROELECTRONIC CIRCUITS",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "INSTR F311",
+    "title": "ELECTRO INST & INST TECH",
+    "credits": 4,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "INSTR F312",
+    "title": "TRANSD & MEASUREMENT TEC",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "INSTR F313",
+    "title": "ANALOG & DIGIT VLSI DES",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "Discipline Core",
+    "prerequisites": "INSTR F244"
+  },
+  {
+    "code": "INSTR F341",
+    "title": "ANALOG ELECTRONICS",
+    "credits": 4,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": "INSTR F244"
+  },
+  {
+    "code": "INSTR F342",
+    "title": "POWER ELECTRONICS",
+    "credits": 4,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "INSTR F343",
+    "title": "INDUS INSTRUMENT & CONT",
+    "credits": 3,
+    "term_parity": "even",
+    "category": "Discipline Core",
+    "prerequisites": null
+  },
+  {
+    "code": "INSTR F413",
+    "title": "ADVANCE PROCESS CONTROL",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": "INSTR F343"
+  },
+  {
+    "code": "INSTR F414",
+    "title": "TELECOM SWIT SYS & NETWK",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": "INSTR F243"
+  },
+  {
+    "code": "INSTR F415",
+    "title": "DIGITAL CONTROL",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": "INSTR F242"
+  },
+  {
+    "code": "INSTR F419",
+    "title": "VIRTUAL INSTRUMENTATION",
+    "credits": 4,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "INSTR F420",
+    "title": "DESIGN OF INSTRU SYSTEMS",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "INSTR F422",
+    "title": "INSTRU FOR PETROCHEM IND",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "INSTR F424",
+    "title": "Smart Grid for Sustainable Energy",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": "(EEE F242 OR INSTR F242 OR ECE F242)"
+  },
+  {
+    "code": "INSTR F428",
+    "title": "Energy Storage Systems",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "INSTR F429",
+    "title": "Smart Materials and Applications",
+    "credits": 4,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "INSTR F430",
+    "title": "Green Communications and Networks",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Discipline Elective",
+    "prerequisites": null
+  }
+]

@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "category": "Discipline Core",
+    "credit_minimum": 48,
+    "eligible_courses": [],
+    "note": "14 courses, exactly 48 units, matching the bulletin's own stated 'Discipline Core-48 Units (14 Courses)' for B.E. Electronics and Instrumentation (E&I), sourced from DETAILS_OF_PROGRAMMES.pdf's 'Semester-wise Pattern for Students Admitted to B.E. Electronics and Instrumentation Programme'. Prerequisites from the same cross-verified KB used for cse/eee/ece."
+  },
+  {
+    "category": "Discipline Elective",
+    "credit_minimum": 12,
+    "eligible_courses": [],
+    "note": "10 real elective courses added (32 credits available), sourced from the bulletin's INSTR DISCIPLINE ELECTIVE COURSES listing. INSTR F428/F429/F430 have no prerequisite data in the KB (consistent with the pattern documented for newer/no-prereq courses) -- treated as open."
+  }
+]

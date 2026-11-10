@@ -1,0 +1,5 @@
+{
+  "branches": ["cse", "eee", "ece", "e_and_i"],
+  "minors": [],
+  "note": "This is a registry of which directories exist, not a claim of validation. See VALIDATION_STATUS.md for what has actually been encoded and passed the validation suite."
+}
