@@ -1,0 +1,21 @@
+[
+  {"code": "BITS F464", "title": "MACHINE LEARNING", "credits": 3, "term_parity": "both", "category": "Minor Core", "prerequisites": null},
+  {"code": "CS F320", "title": "FOUNDATIONS OF DATA SCIENCE", "credits": 3, "term_parity": "both", "category": "Minor Core", "prerequisites": "MATH F113"},
+  {"code": "MATH F432", "title": "APPLIED STATISTICAL METHODS", "credits": 3, "term_parity": "both", "category": "Minor Core", "prerequisites": "MATH F113"},
+  {"code": "BITS F453", "title": "COMPUTATIONAL LEARNING THEORY", "credits": 3, "term_parity": "both", "category": "Minor Core", "prerequisites": null},
+  {"code": "BITS F454", "title": "BIO-INSPIRED INTELLIGENCE: ALGORITHMS AND APPLICATIONS", "credits": 3, "term_parity": "both", "category": "Minor Core", "prerequisites": null},
+
+  {"code": "CS F317", "title": "REINFORCEMENT LEARNING", "credits": 3, "term_parity": "both", "category": "Minor Elective", "prerequisites": null},
+  {"code": "CS F407", "title": "ARTIFICIAL INTELLIGENCE", "credits": 3, "term_parity": "both", "category": "Minor Elective", "prerequisites": null},
+  {"code": "CS F415", "title": "DATA MINING", "credits": 3, "term_parity": "both", "category": "Minor Elective", "prerequisites": null},
+  {"code": "CS F425", "title": "DEEP LEARNING", "credits": 3, "term_parity": "both", "category": "Minor Elective", "prerequisites": null},
+  {"code": "CS F426", "title": "GRAPH MINING", "credits": 4, "term_parity": "both", "category": "Minor Elective", "prerequisites": "CS F211"},
+  {"code": "CS F429", "title": "NATURAL LANGUAGE PROCESSING", "credits": 3, "term_parity": "both", "category": "Minor Elective", "prerequisites": null},
+  {"code": "CS F432", "title": "BRAIN-INSPIRED DEEP LEARNING", "credits": 3, "term_parity": "both", "category": "Minor Elective", "prerequisites": null},
+  {"code": "CS F433", "title": "COMPUTATIONAL NEUROSCIENCE", "credits": 3, "term_parity": "both", "category": "Minor Elective", "prerequisites": null},
+  {"code": "CS F469", "title": "INFORMATION RETRIEVAL", "credits": 3, "term_parity": "both", "category": "Minor Elective", "prerequisites": null},
+  {"code": "CS G519", "title": "SOCIAL MEDIA ANALYTICS", "credits": 4, "term_parity": "both", "category": "Minor Elective", "prerequisites": null},
+  {"code": "MATH F353", "title": "STATISTICAL INFERENCE AND APPLICATIONS", "credits": 3, "term_parity": "both", "category": "Minor Elective", "prerequisites": "MATH F113"},
+  {"code": "MATH F424", "title": "APPLIED STOCHASTIC PROCESSES", "credits": 4, "term_parity": "both", "category": "Minor Elective", "prerequisites": "MATH F113"},
+  {"code": "MATH F471", "title": "NONLINEAR OPTIMIZATION", "credits": 3, "term_parity": "both", "category": "Minor Elective", "prerequisites": null}
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "category": "Minor Core",
+    "credit_minimum": 15,
+    "eligible_courses": [],
+    "note": "Real minor sourced from DETAILS_OF_PROGRAMMES.pdf 'Minor in Data Science' (replaces the benchmark's earlier made-up minor). Bulletin states '5 courses (min), 15 units (min)'. The 5 listed Core courses sum to exactly 15 credits (3 each), satisfying the stated minimum exactly -- the same verification pattern used for cse/eee Discipline Core. BITS F453 and BITS F454 have no prerequisite data in the KB (consistent with the documented pattern for newer/no-prereq courses) -- treated as open."
+  },
+  {
+    "category": "Minor Elective",
+    "credit_minimum": 0,
+    "eligible_courses": [],
+    "note": "The bulletin lists these as the minor's elective pool but does not state a separate elective credit minimum beyond the overall 15-unit/5-course minimum -- the 5 Core courses alone already satisfy that minimum. These electives are included as real, valid alternative/substitute courses (several, e.g. CS F407, CS F415, CS F469, already overlap with cse's own Discipline Elective pool) rather than as a second mandatory floor. If the benchmark wants students to substitute an elective for a core course, use this category's eligible_courses list to model that -- not yet wired up here."
+  }
+]
