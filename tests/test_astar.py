@@ -38,6 +38,7 @@ def _chain_problem():
             "CS F212": _course(4, formula=_pre("CS F211")),
             "CS F213": _course(4, formula=_pre("CS F212")),
         },
+        completed=set(),
         current_semester=0,
         target_semester=6,
         max_credits=4,
@@ -168,6 +169,7 @@ def _tiny_problem(seed: int) -> Problem:
         courses[code] = _course(rng.choice([3, 4]), category, parity, formula)
     return Problem(
         courses=courses,
+        completed=set(),
         current_semester=0,
         target_semester=4,
         max_credits=8,
@@ -182,6 +184,7 @@ def test_credit_bound_packs_independent_cores():
             "CS F212": _course(4),
             "CS F213": _course(4),
         },
+        completed=set(),
         current_semester=0,
         target_semester=6,
         max_credits=4,
@@ -203,6 +206,7 @@ def test_critical_path_counts_prerequisite_chain():
 def test_critical_path_adds_a_wait_when_the_next_term_has_the_wrong_parity():
     problem = Problem(
         courses={"CS F211": _course(3, parity="even")},
+        completed = set(),
         current_semester=0,
         target_semester=4,
         max_credits=20,
@@ -220,6 +224,7 @@ def test_optional_elective_does_not_inflate_the_bound():
             "CS F212": _course(4, ELECTIVE, formula=_pre("CS F211")),
             "CS F213": _course(4, ELECTIVE, formula=_pre("CS F212")),
         },
+        completed = set(),
         current_semester=0,
         target_semester=6,
         max_credits=4,
@@ -233,6 +238,7 @@ def test_optional_elective_does_not_inflate_the_bound():
 def test_category_floor_forces_elective_credits_into_the_credit_bound():
     problem = Problem(
         courses={"CS F311": _course(4, ELECTIVE)},
+        completed = set(),
         current_semester=0,
         target_semester=4,
         max_credits=20,
@@ -277,6 +283,7 @@ def test_astar_leaves_unneeded_electives_untaken():
             "CS F211": _course(4),
             "CS F311": _course(3, ELECTIVE),
         },
+        completed=set(),
         current_semester=0,
         target_semester=4,
         max_credits=20,
@@ -291,6 +298,7 @@ def test_astar_leaves_unneeded_electives_untaken():
 def test_astar_schedules_an_elective_when_the_category_floor_requires_it():
     problem = Problem(
         courses={"CS F311": _course(4, ELECTIVE, parity="odd")},
+        completed=set(), 
         current_semester=0,
         target_semester=4,
         max_credits=20,
@@ -308,6 +316,7 @@ def test_corequisites_share_a_term():
             "CS F301": _course(3, formula=_co("CS F302")),
             "CS F302": _course(3, formula=_co("CS F301")),
         },
+        completed=set(), 
         current_semester=0,
         target_semester=3,
         max_credits=6,
@@ -324,6 +333,7 @@ def test_corequisites_are_unsat_when_they_cannot_fit_together():
             "CS F301": _course(4, formula=_co("CS F302")),
             "CS F302": _course(4, formula=_co("CS F301")),
         },
+        completed=set(), 
         current_semester=0,
         target_semester=4,
         max_credits=4,
@@ -342,6 +352,7 @@ def test_bundle_limit_can_miss_a_feasible_plan():
     }
     problem = Problem(
         courses=courses,
+        completed=set(), 
         current_semester=0,
         target_semester=1,
         max_credits=2,
